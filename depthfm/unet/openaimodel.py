@@ -14,7 +14,7 @@ from .util import (
     normalization,
     timestep_embedding,
 )
-from attention import SpatialTransformer
+from .attention import SpatialTransformer
 
 
 def exists(x):
