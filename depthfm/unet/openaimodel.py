@@ -5,7 +5,7 @@ import torch.nn as nn
 from abc import abstractmethod
 import torch.nn.functional as F
 
-from util import (
+from .util import (
     checkpoint,
     conv_nd,
     linear,
