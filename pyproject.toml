@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-depthfm"
+description = "Unofficial implementation of [a/DepthFM](https://github.com/CompVis/depth-fm) for ComfyUI"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["torchdiffeq"]
+
+[project.urls]
+Repository = "https://github.com/ZHO-ZHO-ZHO/ComfyUI-DepthFM"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-DepthFM"
+Icon = ""
